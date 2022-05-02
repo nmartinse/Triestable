@@ -7,8 +7,10 @@ public class Sistema {
 		if (t instanceof Biestable) {
 			t = new Triestable();
 			t.setEstado(new Amarillo());
-		} else
+		} else {
 			t = new Biestable();
+			t.setEstado(new Rojo());
+		}
 	}
 
 	public void abrir() {
@@ -32,4 +34,5 @@ public class Sistema {
 		return t.estado();
 	}
 }
+
 
