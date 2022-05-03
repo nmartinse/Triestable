@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-16"/>
+	<classpathentry kind="src" path="pr2_biestable/src"/>
+	<classpathentry kind="src" path="pr2_triestable/src"/>
+	<classpathentry kind="src" path="test_biestable/src/test/java"/>
+	<classpathentry kind="src" path="test_triestable/src/test/java"/>
+	<classpathentry kind="output" path="pr2_biestable/bin"/>
+</classpath>
